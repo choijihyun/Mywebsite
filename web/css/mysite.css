@@ -1,0 +1,16 @@
+#main_front{
+  text-align: center;
+  margin: 30px;
+  padding: 100px;
+}
+#my_pic{
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  left: 38%;
+}
+#front_text{
+  font-size: 30px;
+  position: relative;
+  top: 110px;
+}

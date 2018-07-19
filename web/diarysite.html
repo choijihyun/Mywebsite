@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="veiwport" content="width=device-width, initial-scale=1">
+  <title>JIHYUN</title>
+  <link rel="stylesheet" href="css/mysite.css">
+  <link rel="stylesheet" href="css/diarysite.css">
+  <link rel="stylesheet" href="http://localhost/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+  <script src="js/mysite.js"></script>
+</head>
+<body>
+  <div id="main_front" class="jumbotron">
+    <header>
+      <img src="mypict.jpg" id="my_pic">
+      <h1 id="front_text">
+        <a href="mysite.html">JIHYUN</a>
+      </h1>
+    </header>
+  </div>
+  <div>
+    <h2>DIARY</h2>
+  </div>
+  <article>
+    <form action="listpg.html" method="post">
+      <div class="form-group" >
+        <label for="form-title" id="title">제목</label>
+        <input type="text" class="form-control" id="form-title" name="title" placeholder="제목을 적어주세요">
+      </div>
+      <div class="form-group">
+        <label for="form-title">작성자</label>
+        <input type="text" class="form-control" id="form-wr" name="writer" placeholder="WRITER">
+      </div>
+      <div class="form-group">
+        <label for="form-title">내용</label>
+        <textarea name="description" rows="15" class="form-control" id="form-description" placeholder="본문을 적어주세요"></textarea>
+      </div>
+      <input class="btn btn-default btn-lg" type="submit" id="sub_btn">
+      </form>
+    </article>
+  </body>
+</html>
